@@ -3,7 +3,6 @@
 # set this to match your python file name
 # for this example we're using lambda_function.py
 LAMBDA_FUNCTION_NAME="lambda_function"
-LAMBDA_SOURCE_BUCKET="<your-bucket-name>"
 #
 # adjust if desired, but not required
 #
