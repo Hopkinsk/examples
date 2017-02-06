@@ -18,6 +18,6 @@ touch $VIRTUAL_ENV/lib/python2.7/site-packages/snowflake/__init__.py
 # add all the contents of site-packages to the zip archive
 DIR=`pwd`
 cd $VIRTUAL_ENV/lib/python2.7/site-packages
-zip -r9 $DIR/lambda_function.zip *
+zip -r9 $DIR/lambda_function.zip .
 cd $VIRTUAL_ENV/lib64/python2.7/site-packages
-zip -r9 $DIR/lambda_function.zip *
+zip -r9 $DIR/lambda_function.zip .
