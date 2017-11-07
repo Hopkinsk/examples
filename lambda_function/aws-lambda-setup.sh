@@ -67,6 +67,6 @@ aws lambda create-function \
   --zip-file "fileb://${LAMBDA_FUNCTION_NAME}.zip" \
   --role "$LAMBDA_EXECUTION_ROLE_ARN" \
   --handler "${LAMBDA_FUNCTION_NAME}.lambda_handler" \
-  --runtime python2.7 \
+  --runtime python3.6 \
   --timeout 300 \
   --memory-size 128
